@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  margin-top: 0;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  gap: 2px;
 }
 
 .App-link {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  padding: 20px;
+  font-size: 25px;
+  color: black;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px;
+  font-weight:bold;
+}
+
+.SetValue{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
